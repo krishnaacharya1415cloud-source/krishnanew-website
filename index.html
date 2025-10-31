@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Krishna's Mini Website</title>
+</head>
+
+<body>
+    <style>
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f0f0f0;
+            width: 100%;
+            padding: 10px 0;
+        }
+    </style>
+
+
+    <!-- 1️⃣ Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#friends">Friends</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#feedback">Feedback</a>
+    </nav>
+
+    <hr>
+
+    <!-- 2️⃣ Home Section -->
+    <h1 style="font-size: 30px;" id="home">Hello, This is Krishna's Website 🚀</h1>
+    <p style="background-color: pink;">I am learning HTML from scratch.</p>
+
+    <hr>
+    <!-- 3️⃣ About Section -->
+    <h2 style="background-color: green;" id="about">About Hour 2</h2>
+    <p style="font-size: 20px; font-style: italic;">Hour 2 is basically about using headings in proper manner.</p>
+    <p>This is <i>Italic</i> and this is <u>Underlined</u>.</p>
+    <hr>
+    <h3>My Social Media Links</h3>
+    <a href="https://www.facebook.com/gorkhaligunner" target="_blank">Click here to visit my Facebook</a>
+
+    <h4> <u>My Facebook Friends</u></h4>
+    <ol>
+        <li>Geeta Pokhrel</li>
+        <li>Sumitra Dasi</li>
+        <li>Nayan Das</li>
+    </ol>
+    <hr>
+    <h4 style="background-color: red; font-style: italic; font-size: 20px;">My pets list</h4>
+    <ul>
+        <li>Atom</li>
+        <li>Lissu</li>
+        <li>Kaley</li>
+    </ul>
+    <hr>
+
+    <h4 style="background-color: red; font-style: italic; font-size: 20px;">My favorite fruits</h4>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+
+    <!-- 4️⃣ Multimedia Section -->
+    <h1 id="multimedia">Images & Multimedia</h1>
+    <a href="https://www.facebook.com/gorkhaligunner" target="_blank">
+        <img src="images/krishnapic.jpg" alt="Krishna" width="300">
+    </a>
+    <hr>
+    <!-- 🎥 Video -->
+    <h2>My Video</h2>
+    <video width="300" controls>
+        <source src="video/newvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <a href="video/newvideo.mp4" download>Download video</a>
+
+    <hr>
+
+    <!-- 🎵 Audio -->
+    <h2>My Audio</h2>
+    <audio controls>
+        <source src="audio/newaudio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <br>
+    <a href="audio/newaudio.mp3" download>Download audio</a>
+
+    <hr>
+
+    <!-- 📄 Resume -->
+    <a style="font-size: 30px;" href="pdffile/newcv.pdf" download>
+        Download My Resume
+    </a>
+
+    <hr>
+    <!-- Table Example -->
+    <h3 id="friends">My Friends Table</h3>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Dharel</td>
+            <td>25</td>
+            <td>Parsa</td>
+        </tr>
+        <tr>
+            <td>Diwash</td>
+            <td>25</td>
+            <td>Tadi</td>
+        </tr>
+        <tr>
+            <td>Arjun</td>
+            <td>29</td>
+            <td>Dangrechowk</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td><img src="images/krishnapic.jpg" width="150"></td>
+            <td>
+                <h3>About Us</h3>
+                <p>Enjoying Golaghat together.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+
+
+    <!-- 5️⃣ Feedback Form -->
+    <h2 style="background-color: yellow;" id="feedback">Feedback Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
